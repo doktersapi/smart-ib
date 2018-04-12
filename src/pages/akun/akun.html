@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar color="smart-dominan">
+    <ion-title>
+      <div align="center"><img alt="logo" height="50" src="../assets/icon/logo-2.png"></div>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list no-border>
+    <button ion-item>
+      <ion-icon name='person' item-start></ion-icon>
+      Profil
+    </button>
+    <button ion-item>
+      <ion-icon name='lock' item-start></ion-icon>
+      Ganti Password
+    </button>
+    <button ion-item>
+      <ion-icon name='stopwatch' item-start></ion-icon>
+      Term of Service
+    </button>
+
+    <button ion-item>
+      <ion-icon name='settings' item-start></ion-icon>
+      Privacy Policy
+    </button>
+    <button ion-item>
+      <ion-icon name='star' item-start></ion-icon>
+      Beri rating aplikasi
+    </button>
+    <button ion-item (click)="logout()">
+      <ion-icon name='md-log-out' item-start></ion-icon>
+      Keluar
+    </button>
+  </ion-list>
+  </ion-content>
+
+

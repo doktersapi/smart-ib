@@ -1,0 +1,42 @@
+page-login {
+	margin:0;
+	padding:0;
+	background-image: url('../assets/imgs/sapi.jpg');
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+	
+	.text-input::-moz-placeholder {
+		color: white;
+	  }
+	  
+	  .text-input:-ms-input-placeholder {
+		color: white;
+	  }
+	  
+	  .text-input::-webkit-input-placeholder {
+		text-indent: 0;
+		color: white;
+	  }
+
+	.bg{
+		position: absolute;
+    	background: rgba(0, 0, 0, 0.7); /* Black background with transparency */
+		color: #f1f1f1;
+		width: 100%;
+	}
+	
+	.item.item-input {
+		background-color: transparent;
+	}
+
+	.icon{
+		color: white;
+	}
+	
+	.input{
+		color: white;
+	  }
+
+	
+}

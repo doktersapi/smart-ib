@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-navbar color="smart-dominan">
+    <ion-title>
+      <div align="center"><img alt="logo" height="50" src="../assets/icon/logo-2.png"></div>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content style="background-color:#F5F5F5;">
+  <ion-card style="background-color:white;">
+    <ion-card-content>
+      <ion-slides style="height: 10%; width: 100%" pager autoplay="5000" loop="true" speed="200">
+        <ion-slide style="background-color: white">
+          <div align="center"><img alt="logo" height="100%" src="../assets/imgs/logo.jpg"></div>
+        </ion-slide>
+        <ion-slide style="background-image: white">
+          <h2>Slide 2</h2>
+        </ion-slide>
+        <ion-slide style="background-color: red">
+          <h2>Slide 3</h2>
+        </ion-slide>
+      </ion-slides>
+    </ion-card-content>
+  </ion-card>
+  <div style="background-color:white; margin:10px">
+    <ion-grid>
+      <ion-row justify-content-around style="">
+        <ion-col col-4>
+          <a (click)="inseminasi()"><div align="center"><img alt="logo" height="40px" src="../assets/icon/ib.png"></div>
+          <div align="center" style="color:black"><p><b>Inseminasi Buatan</b></p></div></a>
+        </ion-col>
+        <ion-col col-4>
+          <a (click)="recording()"><div align="center"><img alt="logo" height="40" src="../assets/icon/record.png"></div>
+          <div align="center" style="color:black"><p><b>Recording</b></p></div></a>
+        </ion-col>
+      </ion-row>
+      <ion-row justify-content-around style="">
+        <ion-col col-3>
+          <a (click)="konsultasi()"><div align="center"><img alt="logo" height="40" src="../assets/icon/konsultasi.png"></div>
+          <div align="center" style="color:black"><p><b>Konsultasi</b></p></div></a>
+        </ion-col>
+        <ion-col col-3>
+          <a (click)="bibit()"><div align="center"><img alt="logo" height="40" src="../assets/icon/bibit.png"></div>
+          <div align="center" style="color:black"><p><b>Tipe Bibit</b></p></div></a>
+        </ion-col>
+      </ion-row>
+      <ion-row justify-content-around style="">
+        <ion-col col-3>
+          <a (click)="info()"><div align="center"><img alt="logo" height="40" src="../assets/icon/ternak.png"></div>
+          <div align="center" style="color:black"><p><b>Info Ternak</b></p></div></a>
+        </ion-col>
+        <ion-col col-3>
+          <a (click)="berita()"><div align="center"><img alt="logo" height="40" src="../assets/icon/berita.png"></div>
+          <div align="center" style="color:black"><p><b>Berita Terbaru</b></p></div></a>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
